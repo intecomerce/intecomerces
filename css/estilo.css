@@ -1,0 +1,241 @@
+html, body, #home {
+	height: 100%;
+	overflow-x: hidden;
+}
+body {
+	background: url(../img/paralaxe.png)repeat-x;
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	
+}
+/*tipografia-------------------------------------------------------*/
+h1 {
+	font-weight: ;
+	letter-spacing: ;
+	margin-bottom: ;
+	color: white;
+}
+h2 {
+	font-size: ;
+	font-weight: ;
+	letter-spacing:;
+	color: #393942;
+}
+h3 {
+	font-size:;
+	font-weight: ;
+	letter-spacing:;
+	color: blue;
+}
+/*BARRA DE NAVEGAÇAO-----------------------------------------------------------*/
+nav.navbar-transparente {
+	padding: 5px 0px;
+	background: rgb(39, 39, 42, 1);
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+	font-size: 2em;
+	color: white;
+}
+.navbar-light .navbar-nav .nav-item .nav-link:hover {
+	color: #9bf0e1;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+	color: rgba(255, 255, 255,.5);
+	border-color: rgba(255, 255, 255, 0.5);
+}
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+/*------------FIM DA NAVEGACAO--------------------------*/
+#comeco{
+	/*background: url(../img/pcs.jpg)no-repeat;*/
+	background-attachment: fixed;
+	height: 100%;
+}
+#caixa-eu{
+	margin-top: 10%;
+}
+#sobre-eu{
+	padding: 6%;
+}
+#portifolio{
+	padding: 6%;
+}
+#secao-carrosel{	
+	height: 100%;
+	background: #011c40;
+}
+#carousel-spotify {
+	clear: both;
+	position: static;
+}
+#carousel-spotify.carousel-control-next.carousel-control-prev {
+	align-self: center;
+	width: 150px;
+	background: red;
+}
+/*------CARROUSEL-------------------------*/
+
+.botaobranco{
+	border-color: #fff;
+	color: white;
+}
+#cartoes{
+
+	align-self: center;
+	/*background: url(../img/pcs.jpg)no-repeat;*/
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+}
+#progresso{
+	background: #cccccc  /*url(../img/pcs.jpg)no-repeat;*/
+	height: 100%;
+	width: 100%;
+}
+.caixa-branca{
+	background:  #011c40;
+	color: white;
+}
+
+.capa {
+	text-align: center;
+}
+/*.bg_video{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+}
+*/
+
+/*-----------section----------------------*/
+
+/*---------------fim das sections -------------------------*/
+/*-----------clock----------------------*/
+/*------------cores----------------------
+ff4169
+7c26f8
+9bf0e1
+------------------cores--------------------------*/
+
+#cartoes.card.card-header h4 {
+	text-align: center;
+	text-color: #9bf0e1;
+	text-decoration: none;
+
+}
+#cartoes.cartao-padrao{
+	padding-top: 30%;
+
+}
+
+#caixa {
+	margin-top: 100px;
+	margin-left: 50px;
+	border-radius: 300px;
+}
+/*--------------------ANIMACAO DA CAIXA---------------------*/
+@keyframes animacao-caixa {
+	from {/*estado inicial*/
+			background: yellow;
+			border-radius: 300px;
+			top: 100px;
+			left: 50px;
+	}
+	to {/*estado final*/
+		background: red;
+		border-radius: 300px;
+		top: 100px;
+		bottom: 100px;
+		left: 800px;
+		right: 100px;
+
+	}
+}
+#caixa {
+	margin-bottom: 5%;
+	animation: animacao-caixa 5s 1s 2 alternate;
+	width: 300px;
+	height:300px;
+	position: relative;
+
+	animation-name:animacao-caixa;
+	animation-duration:5s;
+	animation-delay: 3s;
+	animation-iteration-count: 2;
+	animation-direction: alternate;
+	
+}
+
+/*---------------------RODAPE-----------------------------------------------*/
+/*-----------fim da tipografia----------------------*/
+
+
+footer {
+	background: rgb(39, 39, 42, 1);
+	padding-bottom: 10%;
+	position: relative;
+	height: 100%;
+}
+footer h4 {
+	color: #919496;
+	text-transform: uppercase;
+}
+footer .navbar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+footer .navbar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+
+/*----------------------FIM DO RODAPE------------------------------------------------------------*/
+/*Extra smal devices 576px--------------------------------------------------*/
+@media (max-width: 575.98px) {
+	#cartoes{
+		padding-bottom: ;
+	}
+	.cartao-padrao{
+		padding-bottom: ;
+	} 
+}
+/*Smal devices 576px and up-------------------------------------------------------*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	button toggle {
+		margin-right: ;
+	}
+	h1{
+		font-size: ;
+	}
+	.btn-custom{
+		margin: 
+	}
+
+}
+/*Medium devices 768px and up*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	h1{
+		font-size: ;
+	}
+}
+/*Large devices desktops 992px and up*/
+@media (min-width:992px) and (max-width: 1199.98px) {
+	h1{
+		font-size: ;
+	}
+}
+/*Extra large devices large desktop 1200px and up*/
+@media (min-width: 1200px) {
+	h1{
+		font-size: ;
+	}
+}
