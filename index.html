@@ -20,10 +20,17 @@
       <style type="text/css">
         
         body{
-
+              min-width: 372px;
         }
         .wrapper{
           min-height: 100vh;
+        }
+        p.truncar-3l{
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
         }
         
 
@@ -200,7 +207,7 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title">Caixa de som blotooth</h5>
-                  <p class="card-text truncate">
+                  <p class="card-text truncar-3l">
                     Caixa de som da melhor qualidade possível, por um preço estraordinário hoje para sua felicidade.
                   </p>                  
                 </div>
