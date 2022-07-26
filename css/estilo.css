@@ -24,19 +24,20 @@ body{
     }
 /*tipografia-------------------------------------------------------*/
 h1 {
-	
+	color: #000066;
+
 }
 h2 {
-	
+	color: #000066;
 }
 h3 {
-	
+	color: #000066;
 }
 h4{
-	color: red;
+	color: #fff;
 }
 h5{
-	color: blue;
+	color: #000066;
 }
 /*BARRA DE NAVEGAÇAO-----------------------------------------------------------*/
 nav.navbar-transparente {
