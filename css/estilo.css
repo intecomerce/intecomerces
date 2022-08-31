@@ -50,18 +50,22 @@ h5{
 }
 
 /*BARRA DE NAVEGAÇAO-----------------------------------------------------------*/
+.menu{
+	background-color: var(--cor-um);
+}
+
 nav.navbar-transparente {
 	padding: 0;
 	height: 4em;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link{
-	font-size: 2em;
+	font-size: 1.3rem;
 	color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-item .nav-link:hover {
-	color: var(--cor-um);
+	color: var(--cor-quatro);
 }
 
 .navbar-dark .navbar-toggler .navbar-toggler-icon {
