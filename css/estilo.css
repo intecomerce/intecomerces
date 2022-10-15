@@ -2,91 +2,70 @@ html, body, #home {
 	height: 100%;
 	overflow-x: hidden;
 }
-
 body {
 	/*background: url(../img/paralaxe.png)repeat-x;*/
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
-	min-width: 372px;
-
-	--cor-um: #000066;
-	--cor-dois: rgba(255, 255, 255,.5);
-	--cor-tres: gray;
-	--cor-quatro: #25d366;
-	--cor-cinco: #888;
+	
 }
-
-.wrapper{
-	min-height: 100vh;
-}
-
-p.truncar-3l{
-	display: -webkit-box;
-	-webkit-line-clamp: 3;
-	-webkit-box-orient: vertical;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-
+body{
+	font-family: Helvetica,Arial,sans-serif;
+    min-width: 372px;
+	}
+    .wrapper{
+    	min-height: 100vh;
+    }
+    p.truncar-3l{
+    	display: -webkit-box;
+    	-webkit-line-clamp: 3;
+    	-webkit-box-orient: vertical;
+    	overflow: hidden;
+  		text-overflow: ellipsis;
+    }
 /*tipografia-------------------------------------------------------*/
 h1 {
-	color: var(--cor-um);
-}
+	color: #000066;
 
+}
 h2 {
-	color: var(--cor-um);
+	color: #000066;
 }
-
 h3 {
-	color: var(--cor-um);
+	color: #000066;
 }
-
 h4{
 	color: #fff;
 }
-
 h5{
-	color: var(--cor-um);
+	color: #000066;
 }
-
 /*BARRA DE NAVEGAÇAO-----------------------------------------------------------*/
-.menu{
-	background-color: var(--cor-um);
-}
-
 nav.navbar-transparente {
 	padding: 0;
 	height: 4em;
 }
-
 .navbar-dark .navbar-nav .nav-item .nav-link{
-	font-size: 1.3rem;
+	font-size: 2em;
 	color: #fff;
 }
-
 .navbar-dark .navbar-nav .nav-item .nav-link:hover {
-	color: var(--cor-quatro);
+	color: #000066;
 }
-
 .navbar-dark .navbar-toggler .navbar-toggler-icon {
-	color: var(--cor-dois);
-	border-color: var(--cor-dois);
+	color: rgba(255, 255, 255,.5);
+	border-color: rgba(255, 255, 255, 0.5);
 }
-
 .navbar-dark .navbar-toggler{
-	background: var(--cor-tres);
+	background: grey;
 }
-
 .divisor {
 	width: 1px;
 	background: white;
 	margin: 12px 15px;
 }
-
 form{
 	margin-top: 50px;
 }
-
 #carrinho-container{
 	margin-top: 6em;
 }
@@ -97,20 +76,37 @@ form{
 	height: 60px;
 	bottom: 40px;
 	right: 40px;
-	background-color: var(--cor-quatro);
+	background-color: #25d366;
 	color: #fff;
 	border-radius: 50px;
 	text-align: center;
 	font-size: 30px;
-	box-shadow: 1px 1px 2px var(--cor-cinco);
+	box-shadow: 1px 1px 2px #888;
 	z-index: 1000;
 }
-
 .fa-whatsapp{
 	margin-top: 16px;
 }
-/*------------FIM DA NAVEGACAO--------------------------*/
 
+.card{
+	display: flex;
+	justify-content: space-around;
+	float: left;
+
+	margin-top: 50px;
+
+}
+.capa{
+	margin-top: 5%;
+	height: 100%;
+
+
+}
+.capa2{
+	
+	margin-top: 8%;
+
+/*------------FIM DA NAVEGACAO--------------------------*/
 /*#comeco{
 	/*background: url(../img/pcs.jpg)no-repeat;*/
 	/*background-attachment: fixed;
