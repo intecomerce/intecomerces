@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Home from "./pages/Home";
 import Smartphones from './pages/Smartphones';
+import Login from './pages/Login/Login';
 
 // importar paginas aqui
 
@@ -13,6 +14,9 @@ function AppRoutes() {
                 <Route path="/smartphones" element={<Smartphones/>}/>
                 <Route path="/" element={<Home/>}/>
                 <Route path="/" element={<Home/>}/>
+                <Route path="/login" element={<Login/>}/>
+
+
             </Routes>
         </div>
     );
