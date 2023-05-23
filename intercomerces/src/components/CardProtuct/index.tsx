@@ -1,12 +1,16 @@
-const CardProd= (props) =>{
+import React from "react";
+import { ProdutoType } from "../../@types/ProdutoType";
+
+const CardProd = (props:ProdutoType) =>{
     return(
         <>
             <figcaption>
                 <figure>
-                    {props.src}
+                    <img src={props.src} alt="img"/>
+                    
                 </figure>
                 <span>
-                    {props.price}
+                    Preço: {props.price}
                 </span>
             </figcaption>
           
@@ -20,3 +24,5 @@ const CardProd= (props) =>{
         </>
     );
 }
+
+export default CardProd;
