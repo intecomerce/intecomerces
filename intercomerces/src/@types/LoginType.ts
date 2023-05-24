@@ -1,6 +1,10 @@
 export type LoginType = {
-    id: number,
-    name: string,
-    email: string,
-    isLogged: boolean
+    id?: string,
+    name?: string,
+    given_name?: string,
+    family_name?: string,
+    email?: string,
+    picture?:string,
+    verified_email?:boolean,
+    locale?:string,
 }
