@@ -4,7 +4,7 @@ import { ProdutoType } from "../../@types/ProdutoType";
 const CardProd = (props:ProdutoType) =>{
     return(
         <>
-            <figcaption>
+            <figcaption style={{background:"black", width:"10rem", display:"flex", justifyContent:"center"}}>
                 <figure>
                     <img src={props.src} alt="img"/>
                     

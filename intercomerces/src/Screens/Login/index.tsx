@@ -29,7 +29,6 @@ function Login() {
         [loginResponse]
     );
 
-
     const loginHandler = useGoogleLogin({
         onSuccess: (res: TokenResponse | any) => setLoginResponse(res),
         onError: (error) => console.error('Login Failed:', error)
